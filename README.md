@@ -1,6 +1,6 @@
 ## Задание 1
 
-Используемые модули: matplotlib
+Используемые модули: matplotlib  
 Описание установки: https://matplotlib.org/stable/users/installing.html
 Решение первого задания отображено в файле **first_task.py**
 Файл **vizualization_first_task.py** служит для своеобразной проверки выполнения **first_task.py**, помогая визуализировать вывод программы.

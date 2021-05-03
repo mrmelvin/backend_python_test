@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 
 if __name__ == '__main__':
+    print('Введите количество точек:')
     n = int(input())
     counterclockwise_points = counterclockwise_sort(n)
     print(calculate_distances(counterclockwise_points))

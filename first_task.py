@@ -44,6 +44,7 @@ def calculate_distances(list_points: List[int]) -> str:
     return f'Мин.: {output[0]} \nМакс.: {output[1]}\nСреднее: {output[2]}'
 
 if __name__ == '__main__':
+    print('Введите количество точек:')
     n = int(input())
     counterclockwise_points = counterclockwise_sort(n)
     print(calculate_distances(counterclockwise_points))
